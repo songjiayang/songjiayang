@@ -1,10 +1,4 @@
 ```golang
-package main
-
-import (
-	"fmt"
-)
-
 func main() {
 	me := map[string]string{
 		"name":    "songjiayang",
@@ -26,5 +20,4 @@ Here are some quick things about me:
 	}
 
 }
-
 ```
