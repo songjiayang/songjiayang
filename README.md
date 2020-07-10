@@ -1,9 +1,30 @@
-### Hi there 👋
+```golang
+package main
 
-**Thanks for visiting my GitHub profile, it's great to meet you here!** 😊
+import (
+	"fmt"
+)
+
+func main() {
+	me := map[string]string{
+		"name":    "songjiayang",
+		"job":     "Software Engineer",
+		"company": "JDCloud",
+	}
+
+	profile := `
+Hi there 👋
+Thanks for visiting my GitHub profile, it's great to meet you here! 😊
 
 Here are some quick things about me:
+`
 
-- :man: I'm a Software Engineer at [@JDCloud](https://www.jdcloud.com/). 
-- :computer: Coding is my passion.
-- :email: The best way to reach me is to send me an email.
+	fmt.Println(profile)
+
+	for k, v := range me {
+		fmt.Printf("- %s: %s \n", k, v)
+	}
+
+}
+
+```
