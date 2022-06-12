@@ -11,7 +11,7 @@ Here are some quick things about me:
 	me := map[string]string{
 		"name":    "songjiayang",
 		"job":     "Software Engineer",
-		"company": "JDCloud",
+		"company": "OPPO",
 	}
 	for k, v := range me {
 		fmt.Printf("- %s: %s \n", k, v)
